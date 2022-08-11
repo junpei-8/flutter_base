@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "name": "Web",
+      "deviceId": "chrome",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--web-hostname",
+        "127.0.0.1",
+        "--web-port",
+        "8080"
+      ]
+    },
+    {
+      "name": "Windows",
+      "deviceId": "windows",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Mac",
+      "deviceId": "macos",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Android", // Pixel 4 API 33
+      "deviceId": "emulator-5554",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "IOS", // Iphone SE (3rd generation)
+      "deviceId": "BDD9C804-87B6-447C-A479-C03A8917492A",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": [
+        "Web",
+        "Windows",
+        "Android",
+        "IOS"
+      ]
+    }
+  ]
+}
