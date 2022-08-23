@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "Dart-Code.flutter",
-    "davidwoo.flutter-auto-import",
     "aziznal.dart-import-sorter"
   ]
 }

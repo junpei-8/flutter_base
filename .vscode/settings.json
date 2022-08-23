@@ -1,14 +1,14 @@
 {
-    "editor.formatOnSave": true,
-    "dartimportsorter.sortOnSave": true,
-    "dart.flutterSdkPath": ".fvm/flutter_sdk",
-    "search.exclude": {
-        "**/.fvm": true
-    },
-    "files.watcherExclude": {
-        "**/.fvm": true
-    },
-    "[dart]": {
-        "editor.rulers": [80],
-    },
+  "editor.formatOnSave": true,
+  "dartimportsorter.sortOnSave": true,
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "[dart]": {
+    "editor.rulers": [80]
+  },
 }
